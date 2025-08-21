@@ -32,7 +32,7 @@ public class UserServiceTest {
 
     @Test
     void testFindAllUser(){
-        User users=userService.findAllUser().getFirst();
+        User users=userService.findAllUser().get(0);
         if(users != null ){
             assertNotNull(users);
         }
