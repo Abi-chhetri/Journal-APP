@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active: dev
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: abichhetri6677@gmail.com
+    password: wgnr gvis sort slcf
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+quotes:
+  api:
+    key: UOOl8eL0o90Jecfg4/7r7Q==3FwpNLK0q7UpJlog
+
+
+redis:
+  host:
+    name: redis-12184.c11.us-east-1-2.ec2.redns.redis-cloud.com
+  port: 12184
+  password: FAZRIEmnCIwKxdvC5aFN3YXNAqL4UAGQ
