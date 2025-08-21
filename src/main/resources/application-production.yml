@@ -3,7 +3,7 @@ spring:
     uri: redis://default:FAZRIEmnCIwKxdvC5aFN3YXNAqL4UAGQ@redis-12184.c11.us-east-1-2.ec2.redns.redis-cloud.com:12184
   data:
     mongodb:
-      uri: mongodb+srv://abichhetri6677:KnowPain9824442812@cluster0.dzbukyl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: ${MONGO_URI}
       database: journaldb
       auto-index-creation: true
 
